@@ -1,3 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   MutantStack.tpp                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: yzhang2 <yzhang2@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/05/18 17:11:48 by yzhang2           #+#    #+#             */
+/*   Updated: 2026/05/18 17:11:51 by yzhang2          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+
 template <typename T, typename Container>
 MutantStack<T, Container>::MutantStack(void) : std::stack<T, Container>()
 {
