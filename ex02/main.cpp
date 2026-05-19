@@ -6,9 +6,10 @@
 /*   By: yzhang2 <yzhang2@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/18 17:11:33 by yzhang2           #+#    #+#             */
-/*   Updated: 2026/05/19 15:35:58 by yzhang2          ###   ########.fr       */
+/*   Updated: 2026/05/19 15:48:48 by yzhang2          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "MutantStack.hpp"
 #include <iostream>
@@ -94,7 +95,7 @@ static void constAndReverseTest(void)
     std::cout << topStack.top() << std::endl;
     topStack.pop();
     std::cout << topStack.size() << std::endl;
-    reverseStack.push(5);
+    
     reverseStack.push(3);
     reverseStack.push(5);
     reverseStack.push(737);
@@ -125,6 +126,7 @@ static void constAndReverseTest(void)
         ++cit;
     }
 }
+
 
 static void typeTemplateTest(void)
 {
